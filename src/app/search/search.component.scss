@@ -1,0 +1,24 @@
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon {
+    color: white;
+    width: 40px;
+    height: 50px;
+    font-size: 2rem;
+    margin-left: 10px;
+    transform: scale(1);
+    transition: all 0.2s;
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all 0.2s;
+    }
+}
+
+.city-input {
+    width: 350px;
+}
